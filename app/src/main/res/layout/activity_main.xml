@@ -6,10 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:text="675.986,687"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="264dp"
-        android:background="@color/numbers"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,24 +35,27 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button38"
+                android:id="@+id/button00"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
+                android:onClick="pressButton"
                 android:text="1"
                 android:textColor="@color/numbers_bg"
                 android:textSize="34sp"
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button39"
+                android:id="@+id/button01"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="2"
@@ -48,11 +64,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button40"
+                android:id="@+id/button02"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="3"
@@ -61,11 +78,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button41"
+                android:id="@+id/button03"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="/"
@@ -81,11 +99,12 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button42"
+                android:id="@+id/button04"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="4"
@@ -94,11 +113,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button43"
+                android:id="@+id/button05"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="5"
@@ -107,11 +127,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button44"
+                android:id="@+id/button06"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="6"
@@ -120,11 +141,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button45"
+                android:id="@+id/button07"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="*"
@@ -140,11 +162,12 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button34"
+                android:id="@+id/button08"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="7"
@@ -153,11 +176,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button35"
+                android:id="@+id/button09"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="8"
@@ -166,11 +190,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button36"
+                android:id="@+id/button10"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="8"
@@ -179,11 +204,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button37"
+                android:id="@+id/button11"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="-"
@@ -199,11 +225,12 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button33"
+                android:id="@+id/button12"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="0"
@@ -212,11 +239,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button30"
+                android:id="@+id/button13"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text=","
@@ -225,11 +253,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button31"
+                android:id="@+id/button14"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="="
@@ -238,11 +267,12 @@
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/button32"
+                android:id="@+id/button15"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/black"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="+"
